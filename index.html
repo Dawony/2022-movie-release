@@ -15,7 +15,7 @@
         h1{
             text-align: center;
             font-size:50px;
-            
+            word-break:keep-all;
         }
         #movie_list{
             margin:0 auto; padding-left:60px; width:210px; border:1px solid black;
@@ -36,11 +36,16 @@
         a:hover{
             font-size: 140%;
         } */
+        @media(max-width:550px){
+            img{
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>2022년 하반기 개봉 예정 영화</h1>
-    <p><img src="bob2.png" style="display: block; margin: 0 auto"; width=500px"></p>
+    <p><img src="bob2.png" style="display: block; margin: 0 auto"; width=500px></p>
     <ul id="movie_list">
         <li><a href="minions2.html">미니언즈2</a></li>
         <li><a href="alien.html">외계+인 1부</a></li>
