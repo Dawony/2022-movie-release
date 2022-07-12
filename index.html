@@ -14,21 +14,34 @@
         *{font-family: 'GongGothicMedium';}
         h1{
             text-align: center;
+            font-size:50px;
+            
         }
-        ul{
-            margin:0 auto; width:300px; border:1px solid black;
+        #movie_list{
+            margin:0 auto; padding-left:60px; width:210px; border:1px solid black;
         }
-        ul li{
-            margin: 4px 0;
+        #movie_list li{
+            margin: 4px 0; padding:20px 5px;
+            font-size:30px;
         }
         a{
             text-decoration-line: none;
         }
+        /* a{
+            font-size: 100%;
+            text-decoration-line: none;
+            transition-property: all;
+            transition-duration: 500ms;
+        }
+        a:hover{
+            font-size: 140%;
+        } */
     </style>
 </head>
 <body>
     <h1>2022년 하반기 개봉 예정 영화</h1>
-    <ul>
+    <p><img src="bob2.png" style="display: block; margin: 0 auto"; width=500px"></p>
+    <ul id="movie_list">
         <li><a href="minions2.html">미니언즈2</a></li>
         <li><a href="alien.html">외계+인 1부</a></li>
         <li><a href="hansan.html">한산</a></li>
